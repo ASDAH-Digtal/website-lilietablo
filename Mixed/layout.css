@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header"
+    "Photo_1 Greeting_1"
+    "Info_1 Info_1";
+}
+
+.header {
+    grid-area: header;
+    text-align: center;
+    color: #ffffff;
+    background-color: #18141D;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.photo_1 {
+    grid-area: photo_1;
+}
+
+.greeting_1{
+    grid-area: greeeting_1;
+    text-align: center;
+    color: #ffffff;
+    background-color: #18141D;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;    
+}
+
+.info_1 {
+    grid-area: info_1;
+    text-align: center;
+    color: #ffffff;
+    background-color: #18141D;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
